@@ -1,0 +1,89 @@
+Senior Python / AI Engineer
+Company: Acme AI
+Location: Remote (US / EU) or Hybrid — San Francisco, CA
+Employment Type: Full-time
+Level: Senior (IC4 / L5 equivalent)
+Salary Range: $180,000 – $240,000 USD + equity
+
+────────────────────────────────────────────────────────────
+About the Role
+────────────────────────────────────────────────────────────
+Acme AI is building production-grade LLM applications for enterprise
+knowledge work. We are hiring a Senior Python/AI Engineer to design, train,
+and ship models and services that power our resume intelligence and document
+understanding products.
+
+You will own end-to-end ML features: data pipelines, fine-tuning (QLoRA /
+PEFT), evaluation harnesses, and low-latency inference services. You will
+partner with product and backend teams to turn research prototypes into
+reliable APIs used by recruiting teams at scale.
+
+────────────────────────────────────────────────────────────
+Responsibilities
+────────────────────────────────────────────────────────────
+• Design and implement Python-based ML pipelines for document parsing,
+  feature extraction, and model training on multi-GPU / consumer-GPU setups.
+• Fine-tune and evaluate open-weight LLMs (Llama 3.x, Mistral, Qwen) using
+  QLoRA, Unsloth, Hugging Face Transformers, PEFT, and TRL.
+• Build robust PDF/text extraction and preprocessing (PyMuPDF, chunking,
+  PII handling) for resume and job-description corpora.
+• Serve models efficiently (vLLM, llama.cpp / GGUF, FastAPI) with attention
+  to VRAM limits (target: 6–24 GB class GPUs) and p95 latency budgets.
+• Define offline and online evaluation metrics (relevance scoring, ranking
+  quality, calibration, human-in-the-loop flags).
+• Write clean, tested, production Python (type hints, ruff, pytest) and
+  maintain clear experiment tracking (W&B or MLflow).
+• Collaborate on data labeling guidelines, synthetic data generation, and
+  continuous improvement of scoring schemas (JSON-structured outputs).
+• Mentor mid-level engineers and review PRs for correctness and efficiency.
+
+────────────────────────────────────────────────────────────
+Required Qualifications
+────────────────────────────────────────────────────────────
+• 5+ years professional software engineering experience, with at least
+  3 years focused on Python ML / applied AI systems.
+• Strong Python proficiency (async, packaging, typing, performance profiling).
+• Hands-on experience fine-tuning or adapting LLMs (LoRA/QLoRA, SFT, DPO)
+  and evaluating structured generation (JSON schemas, tool-use).
+• Practical knowledge of the modern ML stack: PyTorch, Hugging Face
+  Transformers / Datasets, PEFT, bitsandbytes, accelerate.
+• Experience building and deploying inference APIs (FastAPI, Docker, basic
+  cloud: AWS/GCP/Azure).
+• Comfortable working with document data: PDFs, OCR edge cases, messy text.
+• Solid software engineering fundamentals: Git, CI, code review, testing.
+• Bachelor's degree in CS, ML, or equivalent practical experience.
+
+────────────────────────────────────────────────────────────
+Preferred Qualifications
+────────────────────────────────────────────────────────────
+• Experience with Unsloth, Axolotl, or similar efficient fine-tuning stacks.
+• GGUF / llama.cpp / Ollama export and local serving on consumer GPUs.
+• Ranking / retrieval (embeddings, vector DBs, hybrid search) for candidate
+  matching or RAG systems.
+• Prior work on HR-tech, recruiting, or resume/job matching systems.
+• Contributions to open-source ML tooling or published applied ML work.
+• Familiarity with Ruff, uv, and modern Python project layout.
+
+────────────────────────────────────────────────────────────
+Tech Stack (current)
+────────────────────────────────────────────────────────────
+Python 3.12 · PyTorch · Unsloth · Hugging Face · PEFT · bitsandbytes ·
+PyMuPDF · FastAPI · Docker · uv · ruff · pytest · W&B
+
+────────────────────────────────────────────────────────────
+What Success Looks Like (first 6 months)
+────────────────────────────────────────────────────────────
+1. Ship a reproducible fine-tuning pipeline for structured resume scoring
+   (score, confidence, strengths/weaknesses, recommendation tiers).
+2. Deliver a local inference path that runs on a single 6–12 GB GPU.
+3. Improve agreement with human recruiter labels by a measurable margin
+   on a held-out evaluation set.
+4. Document data prep, training, and serving so a teammate can re-run
+   experiments end-to-end in under a day.
+
+────────────────────────────────────────────────────────────
+How to Apply
+────────────────────────────────────────────────────────────
+Submit a resume (PDF) highlighting relevant Python/AI projects, model
+training experience, and links to GitHub or technical writing. Include
+any open-source or portfolio work involving LLMs or document AI.

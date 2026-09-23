@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Generated / large artifacts
+data/processed/
+adapters/
+exported_models/
+exported_models_gguf/
+outputs/
+unsloth_compiled_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/

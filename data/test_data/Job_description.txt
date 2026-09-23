@@ -1,0 +1,29 @@
+Job Title: Senior AI Full-Stack Engineer
+
+Role Type: Full-Time
+
+About the Role:
+
+We are seeking a Senior AI Full-Stack Engineer to build and deploy local, privacy-first GenAI applications. You will be responsible for end-to-end development, from fine-tuning open-weight Large Language Models (LLMs) to building the user interfaces that interact with them. The ideal candidate must have deep experience running models on constrained local hardware.
+
+Required Skills & Technologies:
+
+AI/ML: Proven experience fine-tuning open-source LLMs (LLaMA 3, Mistral) using QLoRA and Unsloth.
+
+Inference Engines: Deep knowledge of deploying quantized models (GGUF) locally using vLLM, Ollama, or llama.cpp.
+
+Backend: Advanced proficiency in Python, specifically building REST APIs with FastAPI and Pydantic.
+
+Frontend: Strong JavaScript/TypeScript skills with experience building responsive dashboards in Next.js, React, and Tailwind CSS.
+
+Architecture: Experience designing decoupled microservices and managing concurrent inference queues.
+
+Hardware: Familiarity with optimizing GPU memory utilization (VRAM limits, KV Cache management, and PagedAttention).
+
+Responsibilities:
+
+Train and distill models for specific JSON-extraction tasks.
+
+Deploy robust inference microservices bypassing cloud APIs.
+
+Build sleek, asynchronous React frontends that gracefully handle LLM loading states.
